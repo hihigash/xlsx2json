@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.29",
+    "typescript": "^5.8.3"
+  },
+  "scripts": {
+    "build": "tsc main.ts --outDir dist",
+    "start": "npm run build && node dist/main.js"
+  }
+}
